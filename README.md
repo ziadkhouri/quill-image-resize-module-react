@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.org/concrete-cc/quill-image-resize-module-react.svg?branch=master)](https://travis-ci.org/concrete-cc/quill-image-resize-module-react)
+
 # Quill ImageResize Module
 
 A module for Quill rich text editor to allow images to be resized.
