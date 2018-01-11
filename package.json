@@ -4,8 +4,8 @@
   "description": "A module for Quill rich text editor to allow images to be resized (with react fixes).",
   "main": "image-resize.min.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "release": "webpack -p --progress --colors",
+    "test": "echo \"Error: no test specified\" && exit 0",
+    "build": "webpack -p --progress --colors",
     "dev": "webpack --progress --colors --watch",
     "lint": "eslint --ext js,es6 src",
     "fixlint": "eslint --fix --ext js,es6 src"
