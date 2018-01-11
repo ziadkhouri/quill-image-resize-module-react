@@ -24,6 +24,10 @@ export default class ImageResize {
             moduleClasses = options.modules.slice();
         }
 
+        if (options.parchment) {
+            this.parchment = options.parchment;
+        }
+
         // Apply options to default options
         this.options = defaultsDeep({}, options, DefaultOptions);
 
@@ -55,7 +59,7 @@ export default class ImageResize {
 
         this.modules.forEach(
             (module) => {
-                module.onCreate();
+                module.onCreate(this.parchment);
             },
         );
 
